@@ -15,11 +15,11 @@ var isMobile = {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
     }
 };
-if (isMobile.any()) {
-    window.location.href = "http://m.foremate.com/?refer=mobile"
-} else {
+// if (isMobile.any()) {
+//     window.location.href = "http://m.foremate.com/?refer=mobile"
+// } else {
 
-}
+// }
 
 
 wow = new WOW({
